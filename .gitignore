@@ -1,0 +1,70 @@
+# CMake
+/build/
+/build-*/
+/cmake-build-*/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/install_manifest.txt
+/CTestTestfile.cmake
+/Testing/
+
+# Ninja
+/.ninja_deps
+/.ninja_log
+
+# Compile outputs
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.d
+*.pch
+*.gch
+*.cu.o
+*.ptx
+*.cubin
+*.fatbin
+*.gpu
+*.dSYM/
+
+# Generated configs
+/compile_commands.json
+
+# Python caches and builds
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+/dist/
+/pip-wheel-metadata/
+/.pytest_cache/
+/.mypy_cache/
+/.ruff_cache/
+/.coverage
+/htmlcov/
+/.ipynb_checkpoints/
+
+# Virtual environments
+/.venv/
+/venv/
+/env/
+/.conda/
+
+# Editor and OS
+.DS_Store
+.idea/
+.vscode/
+.cache/
+*.swp
+*~
+
+# Simulation outputs
+/sod*.dat

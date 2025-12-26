@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Generated figures
+figures/*.png
+figures/*.pdf
+
+# But keep the directory
+!figures/.gitkeep
+
